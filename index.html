@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>MEDIA AI STUDIO — Yellow Purple Edition</title>
+<title>Nguyễn Phong film — Blue Orange Edition</title>
 <style>
-:root{--bg:#100b1c;--panel:#1d1530;--edge:#493367;--text:#fff7db;--muted:#c6b5d8;--accent:#f5c542;--cyan:#ae79ff}
+:root{--bg:#071827;--panel:#102b3e;--edge:#28536a;--text:#eefaff;--muted:#a9c5d4;--accent:#ff8a24;--cyan:#29b6d2}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px system-ui,Segoe UI,Arial}
 header{display:flex;align-items:center;justify-content:space-between;padding:17px 24px;border-bottom:1px solid var(--edge);gap:12px;flex-wrap:wrap}
-.brand{font-size:21px;font-weight:850;letter-spacing:.4px}.brand span{color:var(--accent)}.badge{font-size:11px;background:#473066;color:#ffe08a;padding:5px 9px;border-radius:20px;margin-left:8px}
+.brand{font-size:21px;font-weight:850;letter-spacing:.4px}.brand span{color:var(--accent)}.badge{font-size:11px;background:#16465c;color:#ffb26d;padding:5px 9px;border-radius:20px;margin-left:8px}
 main{max-width:1500px;margin:auto;padding:22px;display:grid;grid-template-columns:300px minmax(0,1fr);gap:18px}
 .panel{background:var(--panel);border:1px solid var(--edge);border-radius:15px;padding:19px}
-h2{font-size:16px;margin:0 0 17px}h3{font-size:13px;color:#f6d785;margin:20px 0 10px}
+h2{font-size:16px;margin:0 0 17px}h3{font-size:13px;color:#ffae68;margin:20px 0 10px}
 label{display:block;color:var(--muted);font-size:12px;margin:13px 0 7px}
-input[type=text],input[type=number],select{width:100%;padding:11px;border-radius:9px;background:#130e22;border:1px solid #60447e;color:white}
-input[type=range]{width:100%;accent-color:#f5c542}
-button,.filebtn{border:1px solid #68468b;background:#34214d;color:white;border-radius:9px;padding:11px 13px;cursor:pointer;font-weight:650}
-button:hover,.filebtn:hover{border-color:var(--accent)}button.primary,.filebtn.primary{background:linear-gradient(110deg,#efb82b,#ffd85a);color:#25133c;border:none}
+input[type=text],input[type=number],select{width:100%;padding:11px;border-radius:9px;background:#091e2e;border:1px solid #32627a;color:white}
+input[type=range]{width:100%;accent-color:#ff8a24}
+button,.filebtn{border:1px solid #356981;background:#194056;color:white;border-radius:9px;padding:11px 13px;cursor:pointer;font-weight:650}
+button:hover,.filebtn:hover{border-color:var(--accent)}button.primary,.filebtn.primary{background:linear-gradient(110deg,#f36b21,#ffad45);color:#102335;border:none}
 button:disabled{opacity:.4;cursor:not-allowed}.row{display:flex;gap:8px;flex-wrap:wrap}.row>*{flex:1}
 .filebtn{display:block;text-align:center}.filebtn input{display:none}
 small,.hint{color:var(--muted);line-height:1.5}.hint{font-size:12px;margin-top:9px}
-.stage{display:flex;align-items:center;justify-content:center;background:#0a0613;min-height:360px;border:1px dashed #694586;border-radius:12px;overflow:hidden}
-canvas{max-width:100%;max-height:520px;background:#090511;display:block;object-fit:contain}
-.placeholder{text-align:center;color:#c6b5d8;padding:40px}.placeholder b{display:block;font-size:45px;margin-bottom:12px}
-.controls{display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap}.controls button{flex:0 0 auto}.time{font-variant-numeric:tabular-nums;color:#ffe3a0}
-.timeline{margin-top:18px;padding:15px;background:#170f29;border:1px solid var(--edge);border-radius:12px}
-.track{height:58px;border-radius:8px;background:repeating-linear-gradient(90deg,#392450 0,#392450 26px,#2d1c42 26px,#2d1c42 28px);position:relative;overflow:hidden;margin:12px 0}
-.clip{height:100%;background:linear-gradient(90deg,#7041a9,#e0a62c);border:1px solid #f5c542;border-radius:6px;position:absolute;display:flex;align-items:center;padding:0 10px;font-size:12px;overflow:hidden;white-space:nowrap}
-.playhead{position:absolute;top:0;bottom:0;width:2px;background:#ffe36b;pointer-events:none}
-.stat{padding:10px 12px;background:#170f29;border:1px solid #493367;border-radius:9px;font-size:13px}
-.notice{margin:18px 0 0;padding:12px;border-radius:9px;background:#342347;color:#ffe49b;font-size:13px}
-footer{text-align:center;padding:20px;color:#c6b5d8;font-size:12px}
+.stage{display:flex;align-items:center;justify-content:center;background:#06131e;min-height:360px;border:1px dashed #2b6580;border-radius:12px;overflow:hidden}
+canvas{max-width:100%;max-height:520px;background:#06131e;display:block;object-fit:contain}
+.placeholder{text-align:center;color:#a9c5d4;padding:40px}.placeholder b{display:block;font-size:45px;margin-bottom:12px}
+.controls{display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap}.controls button{flex:0 0 auto}.time{font-variant-numeric:tabular-nums;color:#ffc18d}
+.timeline{margin-top:18px;padding:15px;background:#0b2334;border:1px solid var(--edge);border-radius:12px}
+.track{height:58px;border-radius:8px;background:repeating-linear-gradient(90deg,#17445c 0,#17445c 26px,#10384d 26px,#10384d 28px);position:relative;overflow:hidden;margin:12px 0}
+.clip{height:100%;background:linear-gradient(90deg,#087ba5,#f47b20);border:1px solid #ff8a24;border-radius:6px;position:absolute;display:flex;align-items:center;padding:0 10px;font-size:12px;overflow:hidden;white-space:nowrap}
+.playhead{position:absolute;top:0;bottom:0;width:2px;background:#ffb15d;pointer-events:none}
+.stat{padding:10px 12px;background:#0b2334;border:1px solid #28536a;border-radius:9px;font-size:13px}
+.notice{margin:18px 0 0;padding:12px;border-radius:9px;background:#123c4a;color:#ffd09b;font-size:13px}
+footer{text-align:center;padding:20px;color:#a9c5d4;font-size:12px}
 @media(max-width:850px){main{grid-template-columns:1fr;padding:12px}.panel{padding:14px}.stage{min-height:240px}header{padding:14px}.brand{font-size:18px}}
 </style></head><body>
-<header><div class="brand">MEDIA <span>AI</span> STUDIO <span class="badge">BETA V1.1</span></div><div style="color:#d6c5e7;font-size:12px">Bộ dựng video trong trình duyệt · Không tải video lên máy chủ</div></header>
+<header><div class="brand">NGUYỄN PHONG <span>FILM</span> <span class="badge">BETA V1.2</span></div><div style="color:#b4d4e4;font-size:12px">Bộ dựng video trong trình duyệt · Không tải video lên máy chủ</div></header>
 <main>
 <aside class="panel">
 <h2>🎬 Dự án của bạn</h2>
@@ -61,17 +61,17 @@ footer{text-align:center;padding:20px;color:#c6b5d8;font-size:12px}
 </aside>
 <section class="panel">
 <h2>📺 Màn hình xem trước</h2>
-<div class="stage" id="stage"><div class="placeholder" id="placeholder"><b>▶</b>Tải video lên để bắt đầu dựng phim</div><canvas id="canvas" style="display:none"></canvas></div>
-<video id="video" playsinline preload="metadata" style="display:none"></video>
+<div class="stage" id="stage"><div class="placeholder" id="placeholder"><b>▶</b>Tải video lên để bắt đầu dựng phim</div><div id="previewBox" style="display:none;position:relative;width:100%;height:100%;align-items:center;justify-content:center;background:#000"><video id="video" playsinline preload="auto" controls style="width:100%;max-height:520px;display:block"></video><div id="captionOverlay" style="position:absolute;bottom:12%;left:5%;width:90%;text-align:center;color:white;font:bold 30px Arial;text-shadow:0 2px 6px black,0 0 4px black;pointer-events:none;overflow-wrap:anywhere"></div></div><canvas id="canvas" style="display:none"></canvas></div>
 <div class="controls"><button id="play" disabled>▶ Phát</button><button id="back" disabled>↶ -5s</button><button id="forward" disabled>+5s ↷</button>
 <button id="mute" disabled>🔊 Âm thanh</button>
 <select id="speed" aria-label="Tốc độ xem trước" style="width:auto;min-width:85px">
 <option value=".5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select><span class="time" id="time">00:00 / 00:00</span></div>
 <input id="seek" type="range" min="0" max="1000" value="0" disabled aria-label="Tua video">
+<div class="row" style="margin-top:12px"><button id="markIn" disabled>⟦ Đặt điểm IN</button><button id="markOut" disabled>⟧ Đặt điểm OUT</button><button id="jumpIn" disabled>↤ Tới IN</button><button id="jumpOut" disabled>↦ Tới OUT</button></div>
 <div class="timeline"><strong>Timeline · Video 1</strong><div class="track"><div class="clip" id="clip" style="left:0;width:0">Video gốc</div><div class="playhead" id="playhead" style="left:0"></div></div><div class="row"><div class="stat" id="durationStat">Thời lượng: —</div><div class="stat" id="trimStat">Đoạn giữ lại: —</div></div></div>
-<p class="hint">Mẹo: nhập thời điểm bắt đầu/kết thúc, bấm “Áp dụng đoạn cắt”, thêm chữ rồi xuất video. Chữ và tỷ lệ khung hình sẽ được ghi trực tiếp vào video xuất.</p>
+<p class="hint">V1.2: Màn hình xem trước dùng trình phát video gốc để tránh lỗi canvas đen. Nút IN/OUT đặt điểm cắt tại vị trí đang phát. Timeline vẫn chỉ hỗ trợ một đoạn video, chưa ghép nhiều clip. Nếu video gốc dùng codec không được trình duyệt hỗ trợ, cần chuyển sang H.264 trước. Xuất WebM vẫn là tính năng thử nghiệm.<br>Mẹo: nhập thời điểm bắt đầu/kết thúc, bấm “Áp dụng đoạn cắt”, thêm chữ rồi xuất video. Chữ và tỷ lệ khung hình sẽ được ghi trực tiếp vào video xuất.</p>
 </section>
-</main><footer>MEDIA AI STUDIO · Prototype V1.1 · Ứng dụng thử nghiệm, chưa có AI hoặc tài khoản thương mại</footer>
+</main><footer>Nguyễn Phong film · Prototype V1.2 · Ứng dụng thử nghiệm, chưa có AI hoặc tài khoản thương mại</footer>
 <script>
 const $=id=>document.getElementById(id);
 const v=$('video'),canvas=$('canvas'),ctx=canvas.getContext('2d'),seek=$('seek');
@@ -81,6 +81,8 @@ const status=s=>$('status').textContent=s;
 function dims(){let w=v.videoWidth||1280,h=v.videoHeight||720,ratio=$('ratio').value;
 if(ratio!=='source'){let [a,b]=ratio.split(':').map(Number),r=a/b;if(w/h>r)w=Math.round(h*r);else h=Math.round(w/r)}
 let scale=Math.min(1,1280/Math.max(w,h));canvas.width=Math.max(2,Math.round(w*scale/2)*2);canvas.height=Math.max(2,Math.round(h*scale/2)*2)}
+function overlay(){let el=$('captionOverlay');el.textContent=$('caption').value;el.style.fontSize=Math.round(Number($('fontSize').value)*.65)+'px';el.style.top=$('captionPos').value==='top'?'10%':$('captionPos').value==='center'?'45%':'auto';el.style.bottom=$('captionPos').value==='bottom'?'12%':'auto'}
+['caption','fontSize','captionPos'].forEach(id=>$(id).addEventListener('input',overlay));
 function paint(){if(!ready)return;let w=canvas.width,h=canvas.height;
 ctx.fillStyle='#000';ctx.fillRect(0,0,w,h);
 let sw=v.videoWidth,sh=v.videoHeight,s=Math.max(w/sw,h/sh),dw=sw*s,dh=sh*s;
@@ -95,17 +97,23 @@ function updateTrim(){if(!ready)return;let a=Number($('start').value),b=Number($
 if(!Number.isFinite(a)||!Number.isFinite(b)||a<0||b>v.duration+.05||b-a<.1){status('⚠️ Khoảng cắt không hợp lệ. Kết thúc phải lớn hơn bắt đầu ít nhất 0,1 giây.');return false}
 trimStart=a;trimEnd=Math.min(b,v.duration);$('clip').style.left=(a/v.duration*100)+'%';$('clip').style.width=((trimEnd-a)/v.duration*100)+'%';$('trimStat').textContent='Đoạn giữ lại: '+fmt(trimEnd-a);v.currentTime=a;status('Đã áp dụng đoạn cắt.');return true}
 $('upload').addEventListener('change',e=>{let f=e.target.files[0];if(!f)return;if(objectURL)URL.revokeObjectURL(objectURL);ready=false;v.pause();objectURL=URL.createObjectURL(f);v.src=objectURL;$('filename').textContent=f.name+' · '+(f.size/1024/1024).toFixed(1)+' MB';status('Đang đọc video...')});
-v.addEventListener('loadedmetadata',()=>{if(!Number.isFinite(v.duration)||v.duration<=0){status('Video không có thời lượng hợp lệ.');return}ready=true;trimStart=0;trimEnd=v.duration;$('start').value=0;$('end').value=v.duration.toFixed(1);dims();canvas.style.display='block';$('placeholder').style.display='none';['play','back','forward','export','seek','mute','snapshot'].forEach(x=>$(x).disabled=false);$('durationStat').textContent='Thời lượng: '+fmt(v.duration);updateTrim();if(!renderLoop)tick();status('Video đã sẵn sàng để chỉnh sửa.')});
+v.addEventListener('loadedmetadata',()=>{if(!Number.isFinite(v.duration)||v.duration<=0){status('Video không có thời lượng hợp lệ.');return}ready=true;trimStart=0;trimEnd=v.duration;$('start').value=0;$('end').value=v.duration.toFixed(1);dims();$('previewBox').style.display='flex';canvas.style.display='none';$('placeholder').style.display='none';overlay();['play','back','forward','export','seek','mute','snapshot','markIn','markOut','jumpIn','jumpOut'].forEach(x=>$(x).disabled=false);$('durationStat').textContent='Thời lượng: '+fmt(v.duration);updateTrim();if(!renderLoop)tick();status('Video đã sẵn sàng để chỉnh sửa.')});
 v.addEventListener('error',()=>status('Không thể mở video. Hãy thử MP4 H.264 hoặc WebM.'));
 $('ratio').addEventListener('change',()=>{if(ready)dims()});
+$('markIn').onclick=()=>{$('start').value=v.currentTime.toFixed(2);updateTrim()};
+$('markOut').onclick=()=>{$('end').value=v.currentTime.toFixed(2);updateTrim()};
+$('jumpIn').onclick=()=>{v.currentTime=trimStart};$('jumpOut').onclick=()=>{v.currentTime=trimEnd};
+v.addEventListener('loadeddata',()=>status('Đã tải khung hình video. Hãy thử phát.'));
+v.addEventListener('stalled',()=>status('Video đang chờ giải mã hoặc tải dữ liệu. Nếu màn hình vẫn đen, thử video H.264.'));
+v.addEventListener('playing',()=>status('▶ Video đang phát.')); 
 $('applyTrim').onclick=updateTrim;
-$('preset').onchange=()=>{if($('preset').value)$('caption').value=$('preset').value};
+$('preset').onchange=()=>{if($('preset').value)$('caption').value=$('preset').value;overlay()};
 $('mute').onclick=()=>{v.muted=!v.muted;$('mute').textContent=v.muted?'🔇 Đang tắt tiếng':'🔊 Âm thanh'};
 $('speed').onchange=()=>{v.playbackRate=Number($('speed').value)};
-$('snapshot').onclick=()=>{if(!ready)return;paint();canvas.toBlob(blob=>{if(!blob){status('Không lưu được ảnh.');return}let url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='MEDIA-AI-STUDIO-frame.png';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);status('✅ Đã lưu ảnh PNG từ khung hình hiện tại.')},'image/png')};
+$('snapshot').onclick=()=>{if(!ready)return;paint();canvas.toBlob(blob=>{if(!blob){status('Không lưu được ảnh.');return}let url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='Nguyen-Phong-film-frame.png';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);status('✅ Đã lưu ảnh PNG từ khung hình hiện tại.')},'image/png')};
 function saveBlob(blob,name){let url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),10000)}
-$('saveProject').onclick=()=>{let data={app:'MEDIA AI STUDIO',version:'1.1',sourceName:$('upload').files[0]?.name||null,ratio:$('ratio').value,caption:$('caption').value,fontSize:$('fontSize').value,captionPos:$('captionPos').value,start:$('start').value,end:$('end').value};saveBlob(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),'MEDIA-AI-STUDIO-project.json');status('Đã lưu cài đặt dự án. Hãy giữ lại cả video gốc.')};
-$('loadProject').onchange=async e=>{let f=e.target.files[0];if(!f)return;try{let d=JSON.parse(await f.text());if(d.app!=='MEDIA AI STUDIO')throw Error('Không đúng định dạng dự án');for(let key of ['ratio','caption','fontSize','captionPos','start','end'])if(d[key]!==undefined&&$(key))$(key).value=d[key];if(ready){dims();updateTrim()}status('Đã mở cài đặt. '+(d.sourceName?'Video gốc: '+d.sourceName:'Hãy tải video gốc.'))}catch(err){status('Không đọc được file dự án: '+err.message)}};
+$('saveProject').onclick=()=>{let data={app:'Nguyễn Phong film',version:'1.1',sourceName:$('upload').files[0]?.name||null,ratio:$('ratio').value,caption:$('caption').value,fontSize:$('fontSize').value,captionPos:$('captionPos').value,start:$('start').value,end:$('end').value};saveBlob(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),'Nguyen-Phong-film-project.json');status('Đã lưu cài đặt dự án. Hãy giữ lại cả video gốc.')};
+$('loadProject').onchange=async e=>{let f=e.target.files[0];if(!f)return;try{let d=JSON.parse(await f.text());if(d.app!=='Nguyễn Phong film')throw Error('Không đúng định dạng dự án');for(let key of ['ratio','caption','fontSize','captionPos','start','end'])if(d[key]!==undefined&&$(key))$(key).value=d[key];if(ready){dims();updateTrim()}status('Đã mở cài đặt. '+(d.sourceName?'Video gốc: '+d.sourceName:'Hãy tải video gốc.'))}catch(err){status('Không đọc được file dự án: '+err.message)}};
 document.addEventListener('keydown',e=>{if(e.code==='Space'&&!['INPUT','TEXTAREA','SELECT','BUTTON'].includes(document.activeElement.tagName)){e.preventDefault();if(ready&&!exporting)$('play').click()}});
 
 $('play').onclick=async()=>{if(v.paused){if(v.currentTime<trimStart||v.currentTime>=trimEnd)v.currentTime=trimStart;try{await v.play();$('play').textContent='⏸ Tạm dừng'}catch(e){status('Không phát được video: '+e.message)}}else{v.pause();$('play').textContent='▶ Phát'}};
@@ -123,6 +131,6 @@ let finished=new Promise((resolve,reject)=>{rec.onerror=e=>reject(e.error||new E
 rec.start(250);await v.play();status('Đang xuất video theo thời gian thực... 0%. Vui lòng giữ tab mở.');
 await new Promise(resolve=>{let watcher=setInterval(()=>{status('Đang xuất video... '+Math.min(100,Math.round((v.currentTime-trimStart)/(trimEnd-trimStart)*100))+'%');if(v.currentTime>=trimEnd-.04||v.ended||v.paused){clearInterval(watcher);resolve()}},40)});
 v.pause();if(rec.state!=='inactive')rec.stop();await finished;stream.getTracks().forEach(t=>t.stop());
-let blob=new Blob(chunks,{type:'video/webm'});if(blob.size<1000)throw Error('Tệp xuất rỗng');let url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='MEDIA-AI-STUDIO-'+Date.now()+'.webm';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);status('✅ Đã xuất video WebM ('+(blob.size/1024/1024).toFixed(1)+' MB).');
+let blob=new Blob(chunks,{type:'video/webm'});if(blob.size<1000)throw Error('Tệp xuất rỗng');let url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='Nguyen-Phong-film-'+Date.now()+'.webm';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);status('✅ Đã xuất video WebM ('+(blob.size/1024/1024).toFixed(1)+' MB).');
 }catch(e){status('❌ Xuất thất bại: '+e.message)}finally{exporting=false;$('export').disabled=false;$('play').disabled=false;$('play').textContent='▶ Phát';v.currentTime=trimStart}};
 </script></body></html>
